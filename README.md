@@ -1,14 +1,16 @@
 # Vue-ElementBase
 
-Vue-ElementBase 的前端部分
+Vue-ElementBase 的前端部分,集成了 ESlint、Prettier、Vuetur 插件
+
+语法检查采用`vue/recommended`、`eslint:recommended`、`google`、`prettier`，保存时自动检查语法问题并提供自动更正，运行时 warning 会被视为 error 无法通过编译
 
 # 安装使用
 
-## 项目部分
+## 项目部分安装
 
 git clone 本项目即可，已包含 node_modules
 
-## vsCode 部分
+## vsCode 部分安装
 
 ### 插件安装
 
@@ -54,3 +56,7 @@ git clone 本项目即可，已包含 node_modules
 
 }
 ```
+
+## 使用
+
+`npm run serve`
