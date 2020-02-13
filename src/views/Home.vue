@@ -1,12 +1,8 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header>
-        header
-      </el-header>
-      <el-main>
-        main
-      </el-main>
+      <el-header> header </el-header>
+      <el-main>main</el-main>
       <el-footer>Footer</el-footer>
     </el-container>
   </div>
